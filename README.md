@@ -2,6 +2,7 @@
 该项目是使用python语言，flask框架，按照flask官网做出的简单博客。
 
 如何部署：(WINDOW环境)
+
 1、下载该项目代码：
 git clone https://github.com/fengpengjun/flask_project.git
 
