@@ -7,8 +7,10 @@ git clone https://github.com/fengpengjun/flask_project.git
 
 2、下载之后部署虚拟环境
 python -m venv venv
+
 3、激活环境
 venv\Scripts\activate
+
 4、使用 pip 在虚拟环境中安装项目
 pip install -e .
 可以通过 pip list 来查看项目的安装情况
@@ -28,9 +30,12 @@ Werkzeug     1.0.1
 
 5、 设置FLASK_APP
 set  FLASK_APP=flaskr
+
 6、设置开发环境
 set FLASK_ENV=development
+
 7、创建数据库表
 flask init-db
+
 8、运行
 flask run
